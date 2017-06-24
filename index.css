@@ -78,7 +78,7 @@ a {
   background-size: 40rem;
 }
 
-.logo {
+.header-content__logo {
   width: 3rem;
   height: 3rem;
 }
@@ -154,23 +154,23 @@ video {
   position: relative;
 }
 
-.themes::before {
+.feature--themes::before {
   background-color: #E0DCE0;
 }
 
-.apps::before {
+.feature--apps::before {
   background-color: #C1BCC2;
 }
 
-.wallpaper::before {
+.feature--wallpaper::before {
   background-color: #A29DA3;
 }
 
-.cli::before {
+.feature--cli::before {
   background-color: #847E85;
 }
 
-.download::before {
+.feature--download::before {
   background-color: #656066;
   height: 120%;
 }
@@ -181,7 +181,7 @@ h3 {
   text-align: center;
 }
 
-.notes {
+.feature__notes {
   display: flex;
   justify-content: center;
 }
