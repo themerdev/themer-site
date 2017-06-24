@@ -41,7 +41,23 @@ a {
   background-color: #97BD2D;
   color: #FFFCFF;
   padding: 0.75em 1em;
-  border-radius: 2px;
+  border-radius: 0.5em;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 300ms ease;
+}
+
+.button:hover {
+  box-shadow: 0 0.125em 1em 0.125em rgba(151, 189, 45, 0.5);
+}
+
+.button--secondary {
+  font-size: 1rem;
+  background-color: #53A6E1;
+}
+
+.button--secondary:hover {
+  box-shadow: 0 0.125em 1em 0.125em rgba(83, 166, 225, 0.5);
 }
 
 /*
