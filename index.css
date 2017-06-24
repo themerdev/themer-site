@@ -20,12 +20,13 @@ a {
 
 .link:link,
 .link:visited {
-  color: #53A6E1;
+  color: #282629;
+  border-bottom: 1px solid currentColor;
   transition: color 300ms ease;
 }
 .link:hover,
 .link:active {
-  color: #1FC598;
+  color: #474247;
 }
 
 .button-wrapper {
@@ -87,6 +88,31 @@ h1 {
   margin-left: 0.33rem;
 }
 
+.nav-section {
+  display: inline-block;
+  padding: 0.25rem;
+  border-radius: 0.125rem;
+}
+
+.nav-section-child:first-child {
+  margin-right: 0.25rem;
+}
+
+.nav-section__label {
+  font-size: 0.75em;
+  color: #FFFCFF;
+  padding: 0.25em;
+  border-radius: 0.125rem;
+}
+
+.nav-section--gui .nav-section__label {
+  background-color: #53A6E1;
+}
+
+.nav-section--cli .nav-section__label {
+  background-color: #97BD2D;
+}
+
 /*
  * Intro
  */
@@ -98,7 +124,7 @@ h1 {
 h2 {
   font-size: 2rem;
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 video {
