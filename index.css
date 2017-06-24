@@ -22,11 +22,12 @@ a {
 .link:visited {
   color: #282629;
   border-bottom: 1px solid currentColor;
-  transition: color 300ms ease;
+  transition: color 300ms ease, border-bottom-color 300ms ease;
 }
 .link:hover,
 .link:active {
   color: #474247;
+  border-bottom-color: #1FC598;
 }
 
 .button-wrapper {
@@ -195,6 +196,7 @@ ul {
 
 ul li {
   margin-left: 1rem;
+  line-height: 1.33;
 }
 
 img {
