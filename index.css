@@ -14,10 +14,13 @@ body, html {
   color: #FFFCFF;
 }
 
+a {
+  text-decoration: none;
+}
+
 .link:link,
 .link:visited {
   color: #53A6E1;
-  text-decoration: none;
   transition: color 300ms ease;
 }
 .link:hover,
@@ -37,7 +40,6 @@ body, html {
   color: #FFFCFF;
   padding: 0.75em 1em;
   border-radius: 2px;
-  text-decoration: none;
 }
 
 /*
@@ -82,7 +84,6 @@ body, html {
 h1 {
   flex: 1 0 auto;
   font-size: 1.33rem;
-  text-transform: lowercase;
   margin-left: 0.33rem;
 }
 
@@ -153,6 +154,11 @@ h3 {
   text-align: center;
 }
 
+.notes {
+  display: flex;
+  justify-content: center;
+}
+
 h4 {
   margin: 0 0 0.5rem;
 }
@@ -175,10 +181,21 @@ img {
 
 footer {
   position: relative;
-  color: #FFFCFF;
+  color: #C1BCC2;
   background-color: #282629;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  vertical-align: center;
+  align-items: center;
   padding: 5rem;
+}
+
+footer a {
+  color: #FFFCFF;
+}
+
+.legal {
+  font-size: 0.75rem;
+  margin-top: 0.33rem;
+  color: #656066;
 }
