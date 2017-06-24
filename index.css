@@ -118,7 +118,7 @@ h1 {
 .nav-section__label {
   font-size: 0.75em;
   color: #FFFCFF;
-  padding: 0.25em;
+  padding: 0.25em 0.4em;
   border-radius: 0.125rem;
 }
 
