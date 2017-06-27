@@ -105,6 +105,11 @@ h1 {
   margin-left: 0.33rem;
 }
 
+nav {
+  text-align: right;
+  margin-left: 1rem;
+}
+
 .nav-section {
   display: inline-block;
   padding: 0.25rem;
@@ -231,7 +236,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  text-align: center;
+  padding: 5rem 0;
 }
 
 footer a {
