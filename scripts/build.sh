@@ -3,6 +3,9 @@ set -euo pipefail
 
 mkdir -p dist
 
+# now config
+cp now.json dist/
+
 # Main site files
 cp apps.jpg dist/
 cp basicGrid.min.css dist/
@@ -20,5 +23,5 @@ themer -c themer-colors-default -t scripts/themer-previews.js -o tmp
 themer -c themer-colors-night-sky -t scripts/themer-previews.js -o tmp
 themer -c themer-colors-one -t scripts/themer-previews.js -o tmp
 themer -c themer-colors-polar-ice -t scripts/themer-previews.js -o tmp
-mv tmp/themer-previews.js dist/color-set-previews
+mv -f tmp/themer-previews.js dist/color-set-previews
 rmdir tmp

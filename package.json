@@ -1,14 +1,8 @@
 {
   "private": true,
-  "now": {
-    "type": "static",
-    "name": "themer-site",
-    "alias": "themer.mjswensen.com"
-  },
   "scripts": {
     "build": "./scripts/build.sh",
-    "clean": "rimraf dist",
-    "deploy": "npm run build && now deploy dist"
+    "clean": "rimraf dist"
   },
   "dependencies": {
     "rimraf": "^2.6.1",
