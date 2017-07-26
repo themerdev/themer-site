@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "now": {
+    "type": "static",
+    "name": "themer-site",
+    "alias": "themer.mjswensen.com"
+  },
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "clean": "rimraf dist",
+    "deploy": "npm run build && now deploy dist"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.1",
+    "themer": "^2.2.1",
+    "themer-colors-default": "^1.0.2",
+    "themer-colors-night-sky": "^1.0.2",
+    "themer-colors-one": "^1.0.2",
+    "themer-colors-polar-ice": "^1.0.0"
+  }
+}
