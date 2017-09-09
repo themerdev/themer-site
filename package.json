@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "./scripts/build.sh",
-    "clean": "rimraf dist"
+    "build": "npm run clean && ./scripts/build.sh",
+    "clean": "rimraf dist",
+    "deploy": "npm run build && cd dist && now"
   },
   "dependencies": {
     "rimraf": "^2.6.1",
