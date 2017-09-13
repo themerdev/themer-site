@@ -3,7 +3,7 @@
   "scripts": {
     "build": "npm run clean && ./scripts/build.sh",
     "clean": "rimraf dist",
-    "deploy": "npm run build && cd dist && now"
+    "deploy": "npm run build && now dist"
   },
   "dependencies": {
     "rimraf": "^2.6.1",
