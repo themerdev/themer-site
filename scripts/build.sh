@@ -19,11 +19,12 @@ cp themes.jpg dist/
 cp wallpaper.jpg dist/
 
 # Generate preview files
-themer -c themer-colors-default -t scripts/themer-previews.js -o tmp
-themer -c themer-colors-night-sky -t scripts/themer-previews.js -o tmp
-themer -c themer-colors-one -t scripts/themer-previews.js -o tmp
-themer -c themer-colors-polar-ice -t scripts/themer-previews.js -o tmp
-themer -c themer-colors-lucid -t scripts/themer-previews.js -o tmp
-themer -c themer-colors-finger-paint -t scripts/themer-previews.js -o tmp
-mv -f tmp/themer-previews.js dist/color-set-previews
+themer -c themer-colors-default -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-night-sky -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-one -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-polar-ice -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-lucid -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-finger-paint -t themer-preview-swatch -t themer-preview-code -o tmp
+mv -f tmp/themer-preview-swatch dist/
+mv -f tmp/themer-preview-code dist/
 rmdir tmp

@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "npm run clean && ./scripts/build.sh",
     "clean": "rimraf dist",
+    "build": "npm run clean && ./scripts/build.sh",
     "deploy": "npm run build && now dist"
   },
   "dependencies": {
@@ -13,6 +13,8 @@
     "themer-colors-lucid": "^1.0.0",
     "themer-colors-night-sky": "^1.0.2",
     "themer-colors-one": "^1.0.2",
-    "themer-colors-polar-ice": "^1.0.0"
+    "themer-colors-polar-ice": "^1.0.0",
+    "themer-preview-code": "^1.0.0",
+    "themer-preview-swatch": "^1.0.1"
   }
 }
