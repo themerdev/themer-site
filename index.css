@@ -153,6 +153,19 @@ video {
   width: 100%;
 }
 
+.product-hunt-well {
+  border: 1px solid #847E85;
+  padding: 1rem;
+  margin-top: 1.78rem;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.product-hunt-well span {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
 /*
  * Features
  */
