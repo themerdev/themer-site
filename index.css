@@ -30,7 +30,8 @@ a {
   border-bottom-color: #1FC598;
 }
 
-.button-wrapper {
+.button-wrapper,
+.sponsor-wrapper {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -204,8 +205,12 @@ video {
   background-color: #847E85;
 }
 
-.feature--download::before {
+.feature--sponsor::before {
   background-color: #656066;
+}
+
+.feature--download::before {
+  background-color: #474247;
   height: 120%;
 }
 
