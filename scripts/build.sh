@@ -26,6 +26,7 @@ themer -c themer-colors-polar-ice -t themer-preview-swatch -t themer-preview-cod
 themer -c themer-colors-lucid -t themer-preview-swatch -t themer-preview-code -o tmp
 themer -c themer-colors-finger-paint -t themer-preview-swatch -t themer-preview-code -o tmp
 themer -c themer-colors-solarized -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-github-universe -t themer-preview-swatch -t themer-preview-code -o tmp
 mv -f tmp/themer-preview-swatch dist/
 mv -f tmp/themer-preview-code dist/
 rmdir tmp
