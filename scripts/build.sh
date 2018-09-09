@@ -28,6 +28,7 @@ themer -c themer-colors-finger-paint -t themer-preview-swatch -t themer-preview-
 themer -c themer-colors-solarized -t themer-preview-swatch -t themer-preview-code -o tmp
 themer -c themer-colors-github-universe -t themer-preview-swatch -t themer-preview-code -o tmp
 themer -c themer-colors-nova -t themer-preview-swatch -t themer-preview-code -o tmp
+themer -c themer-colors-monkey -t themer-preview-swatch -t themer-preview-code -o tmp
 mv -f tmp/themer-preview-swatch dist/
 mv -f tmp/themer-preview-code dist/
 rmdir tmp
