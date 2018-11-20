@@ -1,5 +1,4 @@
 {
-  "type": "static",
-  "name": "themer-site",
+  "version": 2,
   "alias": "themer.mjswensen.com"
 }
